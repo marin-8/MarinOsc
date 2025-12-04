@@ -1,0 +1,31 @@
+﻿
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<TargetFramework>net9.0</TargetFramework>
+		<LangVersion>13.0</LangVersion>
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<Nullable>Enable</Nullable>
+		<TreatWarningsAsErrors>True</TreatWarningsAsErrors>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="BenchmarkDotNet" Version="0.15.2" />
+		<PackageReference Include="CoreOSC" Version="1.0.0" />
+		<PackageReference Include="LucHeart.CoreOSC" Version="1.5.0" />
+		<PackageReference Include="Vizcon.OSC" Version="1.0.3" />
+		<PackageReference Include="VolcanicArts.FastOSC" Version="1.1.1" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\MarinOsc1\MarinOsc1.csproj" />
+		<ProjectReference Include="..\MarinOsc\MarinOsc.csproj" />
+	</ItemGroup>
+
+</Project>

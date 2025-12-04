@@ -1,0 +1,25 @@
+
+# Build output
+[Dd]ebug/
+[Rr]elease/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio Code
+.vscode/
+.history/
+*.code-workspace
+
+# Rider / JetBrains
+.idea/
+
+# Other
+_workspaces.db

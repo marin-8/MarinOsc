@@ -1,0 +1,22 @@
+﻿
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<TargetFramework>net9.0</TargetFramework>
+		<LangVersion>13.0</LangVersion>
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<Nullable>Enable</Nullable>
+		<TreatWarningsAsErrors>True</TreatWarningsAsErrors>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\MarinOsc\MarinOsc.csproj" />
+	</ItemGroup>
+
+</Project>

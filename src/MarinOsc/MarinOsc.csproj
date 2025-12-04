@@ -1,0 +1,30 @@
+﻿
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>netstandard2.0</TargetFramework>
+		<LangVersion>13.0</LangVersion>
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<Nullable>Enable</Nullable>
+		<TreatWarningsAsErrors>True</TreatWarningsAsErrors>
+		<AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="IndexRange" Version="1.1.0" />
+		<PackageReference Include="Microsoft.Bcl.AsyncInterfaces" Version="9.0.8" />
+		<PackageReference Include="System.Memory" Version="4.6.3" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Roslyn.Analyzers" Version="1.0.3.4" PrivateAssets="All" />
+	</ItemGroup>
+
+	<PropertyGroup>
+		<NoWarn>RETURN0001;ASYNC0001</NoWarn>
+		<WarningsNotAsErrors>AD0001</WarningsNotAsErrors>
+	</PropertyGroup>
+
+</Project>
